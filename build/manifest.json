@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,  
+  "name": "Azkar",
+  "description": "Display random Azkar when opening new tab.",
+  "version": "1.0.0",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "muslim.png",
+    "48": "muslim.png",
+    "128": "muslim.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

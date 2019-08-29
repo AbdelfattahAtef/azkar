@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+.App {
+  height: 100vh;
+  width: 100%;
+}
+.appOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 70px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+}
